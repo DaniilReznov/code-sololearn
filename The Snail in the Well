@@ -1,0 +1,12 @@
+function main() {
+    var depth = parseInt(readLine(), 10);
+    var a = 0;
+    for (day = 0; a < depth;a = a - 2){
+      a = a + 7;
+      day++;
+    if (a >= depth){
+      break;
+    }
+  }
+  console.log(day);
+}
