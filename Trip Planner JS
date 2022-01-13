@@ -1,0 +1,9 @@
+function main() {
+    var distance = parseInt(readLine(), 10);
+    var a;
+    
+    a = distance / 40;
+    a *= 60;
+    
+    console.log(a);
+}
